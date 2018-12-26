@@ -7,7 +7,7 @@ A new Flutter application.
 This project is a for Flutter localization.
 
 
-## Add this code in pubspec.yaml
+# Add this code in pubspec.yaml
 
 dependencies:
   flutter:
@@ -15,9 +15,9 @@ dependencies:
   flutter_localizations: //new
     sdk: flutter //new
     
-## Create delegate file and localization file //copy from this code.
+# Create delegate file and localization file //copy from this code.
 
-## Add this code to main.dart file in build overrided method.
+# Add this code to main.dart file in build overrided method.
 
 supportedLocales: [const Locale('gu', 'GU'), const Locale('en', 'US')],
       localizationsDelegates: [
@@ -37,9 +37,9 @@ supportedLocales: [const Locale('gu', 'GU'), const Locale('en', 'US')],
         return supportedLocales.first;
       },
  
- ## Create directory resources/lang and create json files for strings. // check the code.
+ # Create directory resources/lang and create json files for strings. // check the code.
  
- ## write code to puspes.yaml like below
+ # write code to pubspes.yaml like below
  
  flutter:
   uses-material-design: true
