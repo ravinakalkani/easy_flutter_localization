@@ -1,4 +1,4 @@
-# flutter localization
+# Flutter Localization
 ## Getting Started
 
 This project is a for Flutter localization.
@@ -42,7 +42,7 @@ supportedLocales: [const Locale('gu', 'GU'), const Locale('en', 'US')],
  
  ## Create directory resources/lang and create json files for strings. // check the code.
  
- ## write code to pubspes.yaml like below
+ ## Write code to pubspes.yaml like below
  
  ```
  
